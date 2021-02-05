@@ -11,14 +11,10 @@ function funcion_nombrecompleto() {
     var nomape = document.getElementById("nombre").value + document.getElementById("apellido").value
     alert ('bienvenido '+ nomape)
 }
-function funcion_opcional() {
-    var yx = document.getElementById("nombrepractica").value;
-    alert('estas realizando' + yx)
-}
 
 </script>
-<body onload="funcion_opcional()">
-    <h1 id="nombrepractica">jaja</h1>
+<body>
+    <h1 class="azul">Practica Bloque 3</h1>
     
 Introduce tu nombre: <input type="text" id="nombre">
 Introduce tu primer apellido: <input type="text" id="apellido" onchange="funcion_nombrecompleto()">
